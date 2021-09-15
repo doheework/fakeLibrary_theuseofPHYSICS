@@ -89,19 +89,18 @@ body {
   .text{
     font-size: 15px;
     width: 75%;
-    top:720px;
+    top:80%;
   }
 }
 
 .mockup_f{
-  position: relative;
+  position: absolute;
   width: 600px;
   max-width:90%;
   height:auto;
   left: 50%;
   top: 130px;
   transform: translate(-50%,-50%); 
-
 }
 
 .mockup_front{
@@ -133,6 +132,12 @@ body {
   color: #FFFFFF;
 }
 
+@media screen and (max-width:600px) {
+  .arrow{
+    left:27px;
+  }
+}
+
 .arrow:hover {
   cursor:pointer;
 }
@@ -152,12 +157,10 @@ body {
   color: #FFFFFF;
 }
 
-
-
-h {
-  font-family: Comic Neue;
-  font-style: normal; 
-  font-weight: bolder;
+@media screen and (max-width:600px) {
+  .backname{
+    left:80px;
+  }
 }
 
 
@@ -165,7 +168,7 @@ h {
   position: absolute;
   width: 60%;
   left: 50%;
-  top: 673px;
+  top: 803px;
   transform: translate(-50%,0%);
     
 
@@ -181,8 +184,7 @@ h {
 
 @media screen and (max-width:600px) {
   .부제{
-    position:relative;
-    top: 490px;
+    top: 68%;
   }
 }
 
