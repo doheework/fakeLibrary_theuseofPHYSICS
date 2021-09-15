@@ -89,12 +89,12 @@ body {
   .text{
     font-size: 15px;
     width: 75%;
-    top:80%;
+    top:600px;
   }
 }
 
 .mockup_f{
-  position: absolute;
+  position: relative;
   width: 600px;
   max-width:90%;
   height:auto;
@@ -184,7 +184,7 @@ body {
 
 @media screen and (max-width:600px) {
   .부제{
-    top: 68%;
+    top: 520px;
   }
 }
 
