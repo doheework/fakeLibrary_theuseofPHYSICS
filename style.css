@@ -89,14 +89,14 @@ body {
   .text{
     font-size: 15px;
     width: 75%;
-    top:660px;
+    top:720px;
   }
 }
 
 .mockup_f{
   position: relative;
   width: 600px;
-  max-width:100%;
+  max-width:90%;
   height:auto;
   left: 50%;
   top: 130px;
@@ -107,14 +107,15 @@ body {
 .mockup_front{
   position: absolute;
   width: 548px;
-  max-width:100%;
+  max-width:90%;
   height:auto;
+  text-align:center;
 }
 
 .mockup_inside{
   position: absolute;
   width: 548px;
-  max-width:100%;
+  max-width:90%;
   height:auto;
   opacity:0;
   z-index:2;
@@ -122,6 +123,67 @@ body {
 
 .mockup_f:hover .mockup_inside{
   opacity:1;
+}
+
+.arrow{
+  left: 40px;
+  top: 27px;
+  position:fixed;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.arrow:hover {
+  cursor:pointer;
+}
+
+.backname{
+  position: fixed;
+  width: 70%;
+  left: 95px;
+  top: 25px;
+
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+
+  color: #FFFFFF;
+}
+
+
+
+h {
+  font-family: Comic Neue;
+  font-style: normal; 
+  font-weight: bolder;
+}
+
+
+.부제{
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  top: 673px;
+  transform: translate(-50%,0%);
+    
+
+  font-family: Apple SD Gothic Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:600px) {
+  .부제{
+    position:relative;
+    top: 490px;
+  }
 }
 
 .울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표 {
@@ -443,62 +505,3 @@ cursor:pointer;
   height: auto;
 }
 
-.arrow{
-  left: 40px;
-  top: 27px;
-  position:fixed;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-.arrow:hover {
-  cursor:pointer;
-}
-
-.backname{
-  position: fixed;
-  width: 70%;
-  left: 95px;
-  top: 25px;
-
-  font-family: Comic Neue;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 41px;
-
-  color: #FFFFFF;
-}
-
-
-
-h {
-  font-family: Comic Neue;
-  font-style: normal; 
-  font-weight: bolder;
-}
-
-
-.부제{
-  position: absolute;
-  width: 40%;
-  left: 50%;
-  top: 803px;
-  transform: translate(-50%,0%);
-    
-
-  font-family: Apple SD Gothic Neo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-@media screen and (max-width:600px) {
-  .부제{
-    top:560px;
-  }
-}
