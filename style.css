@@ -1,10 +1,13 @@
-
-
 body {
   margin: 0px atuo;
   width:100vw;
   background: radial-gradient(50% 50% at 50% 50%, #FFA800 65.1%, #00FFCD 100%);
   background-attachment: fixed;
+}
+
+header {
+  position:fixed;
+  z-index:1;
 }
 
 .캡1, .캡2, .캡3, .캡4, .캡5, .캡6{
@@ -93,7 +96,8 @@ body {
   }
 }
 
-.mockup_f{
+.mockup{
+  text-align: center;
   position: relative;
   width: 600px;
   max-width:90%;
@@ -101,6 +105,7 @@ body {
   left: 50%;
   top: 130px;
   transform: translate(-50%,-50%); 
+
 }
 
 .mockup_front{
@@ -109,6 +114,7 @@ body {
   max-width:90%;
   height:auto;
   text-align:center;
+  left:-4%;
 }
 
 .mockup_inside{
@@ -118,10 +124,34 @@ body {
   height:auto;
   opacity:0;
   z-index:2;
+  left:-4%;
 }
 
-.mockup_f:hover .mockup_inside{
+
+.mockup:hover .mockup_inside{
   opacity:1;
+}
+
+.부제{
+  text-align: center;
+  left:2%;
+  position: absolute;
+  width: 80%;
+  top: 660px;
+  font-family: Apple SD Gothic Neo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:600px) {
+  .부제{
+    top: 400px;
+  }
 }
 
 .arrow{
@@ -142,11 +172,17 @@ body {
   cursor:pointer;
 }
 
-.backname{
+i{
+  font-family: Comic Neue;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1{
   position: fixed;
   width: 70%;
   left: 95px;
-  top: 25px;
+  top: 0px;
 
   font-family: Comic Neue;
   font-style: normal;
@@ -166,29 +202,7 @@ body {
 }
 
 
-.부제{
-  position: absolute;
-  width: 60%;
-  left: 50%;
-  top: 803px;
-  transform: translate(-50%,0%);
-    
 
-  font-family: Apple SD Gothic Neo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-@media screen and (max-width:600px) {
-  .부제{
-    top: 520px;
-  }
-}
 
 .울버린, .수업, .확대, .그림단어, .시즌, .등장, .학생, .주빌리, .플라즈모이드, .핵융합, .손, .불꽃놀이, .게임기, .파이로, .라이터, .압전기, .바비, .얼음, .장면, .성적표 {
   box-shadow: inset 0 -1px 0 white; 
